@@ -50,7 +50,7 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Email</p>
-                    <p className="font-medium">votre@email.com</p>
+                    <p className="font-medium">ayoubhanine2000@email.com</p>
                   </div>
                 </div>
               </div>
@@ -62,7 +62,7 @@ export const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Localisation</p>
-                    <p className="font-medium">Paris, France</p>
+                    <p className="font-medium">Beni Mellal, MAROC</p>
                   </div>
                 </div>
               </div>

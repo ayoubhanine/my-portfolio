@@ -1,5 +1,6 @@
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profile  from "../assets/profile.png";
 
 export const HeroSection = () => {
   const scrollToProjects = () => {
@@ -32,8 +33,19 @@ export const HeroSection = () => {
 
           {/* Name */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-in" style={{ animationDelay: "0.4s" }}>
-            <span className="text-gradient">Votre Nom</span>
+            <span className="text-gradient">HANINE AYOUB</span>
           </h1>
+          {/* Image circulaire */}
+<div
+  className="flex justify-center mb-8 animate-fade-in"
+  style={{ animationDelay: "0.6s" }}
+>
+  <img
+    src={profile}   // mets ici le chemin de ton image
+    alt=""
+    className="w-100 h-100 md:w-48 md:h-52 rounded-full object-cover border-4 border-white shadow-lg"
+  />
+</div>
 
           {/* Title */}
           <h2 className="text-2xl md:text-3xl lg:text-4xl text-muted-foreground font-medium mb-8 animate-fade-in" style={{ animationDelay: "0.6s" }}>

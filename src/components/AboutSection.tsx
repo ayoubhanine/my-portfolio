@@ -63,7 +63,7 @@ export const AboutSection = () => {
                 </div>
                 <div className="pl-4 text-muted-foreground">
                   <span className="text-foreground">name</span>:{" "}
-                  <span className="text-green-400">"Votre Nom"</span>,
+                  <span className="text-green-400">"Hanine AYOUB"</span>,
                 </div>
                 <div className="pl-4 text-muted-foreground">
                   <span className="text-foreground">role</span>:{" "}
