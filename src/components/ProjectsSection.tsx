@@ -6,8 +6,8 @@ const projects = [
     title: "E-Commerce Platform",
     description:
       "Plateforme e-commerce complète avec panier, paiement Stripe, et dashboard admin. Construite avec Next.js et Prisma.",
-    tech: ["Next.js", "TypeScript", "Prisma", "Stripe"],
-    github: "https://github.com",
+    tech: ["Next.js", "TypeScript"],
+    github: "https://github.com/ayoubhanine",
     live: "https://example.com",
     featured: true,
   },
@@ -15,8 +15,8 @@ const projects = [
     title: "Task Management App",
     description:
       "Application de gestion de tâches en temps réel avec collaboration d'équipe, drag & drop, et notifications.",
-    tech: ["React", "Node.js", "Socket.io", "MongoDB"],
-    github: "https://github.com",
+    tech: ["React", "Node.js",  "MongoDB"],
+    github: "https://github.com/ayoubhanine",
     live: "https://example.com",
     featured: true,
   },
@@ -24,8 +24,8 @@ const projects = [
     title: "AI Chat Interface",
     description:
       "Interface de chat alimentée par l'IA avec streaming de réponses, historique de conversations, et thèmes personnalisables.",
-    tech: ["React", "OpenAI", "Tailwind", "Supabase"],
-    github: "https://github.com",
+    tech: ["React",  "Tailwind"],
+    github: "https://github.com/ayoubhanine",
     live: "https://example.com",
     featured: true,
   },
@@ -36,19 +36,19 @@ const otherProjects = [
     title: "Portfolio Template",
     description: "Template de portfolio moderne et responsive pour développeurs.",
     tech: ["React", "Tailwind CSS"],
-    github: "https://github.com",
+    github: "https://github.com/ayoubhanine",
   },
   {
     title: "Weather Dashboard",
     description: "Dashboard météo avec prévisions et visualisations interactives.",
     tech: ["Vue.js", "Chart.js", "API"],
-    github: "https://github.com",
+    github: "https://github.com/ayoubhanine",
   },
   {
     title: "CLI Tool",
     description: "Outil en ligne de commande pour automatiser les tâches de développement.",
     tech: ["Node.js", "Commander"],
-    github: "https://github.com",
+    github: "https://github.com/ayoubhanine",
   },
 ];
 
