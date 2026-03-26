@@ -39,42 +39,64 @@ export const AboutSection = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Text Content */}
             <div className="space-y-6">
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Développeur Full Stack passionné avec plusieurs années d'expérience
-                dans la création d'applications web modernes et performantes.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Je maîtrise les technologies front-end et back-end, et j'aime
-                transformer des idées complexes en solutions élégantes et
-                intuitives. Mon approche combine créativité technique et attention
-                aux détails.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Quand je ne code pas, vous me trouverez en train d'explorer de
-                nouvelles technologies, de contribuer à des projets open source,
-                ou de partager mes connaissances avec la communauté.
-              </p>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+  Développeur Full Stack spécialisé en MERN Stack (MongoDB, Express, React, Node.js),
+  je conçois et développe des applications web modernes, performantes et évolutives.
+  J’accorde une attention particulière à la qualité du code, à la performance et à
+  l’expérience utilisateur.
+</p>
 
-              {/* Code Block */}
-              <div className="glass rounded-xl p-6 font-mono text-sm mt-8">
-                <div className="text-muted-foreground">
-                  <span className="text-accent">const</span>{" "}
-                  <span className="text-primary">developer</span> = {"{"}
-                </div>
-                <div className="pl-4 text-muted-foreground">
-                  <span className="text-foreground">name</span>:{" "}
-                  <span className="text-green-400">"Hanine AYOUB"</span>,
-                </div>
-                <div className="pl-4 text-muted-foreground">
-                  <span className="text-foreground">role</span>:{" "}
-                  <span className="text-green-400">"MERN Stack Developer"</span>,
-                </div>
-                <div className="pl-4 text-muted-foreground">
-                  <span className="text-foreground">loves</span>:{" "}
-                  <span className="text-green-400">["React", "Node.js", "TypeScript"]</span>,
-                </div>
-                <div className="text-muted-foreground">{"}"}</div>
-              </div>
+<p className="text-lg text-muted-foreground leading-relaxed">
+  J’interviens sur l’ensemble du cycle de développement, du design d’interfaces
+  intuitives côté front-end à la mise en place d’architectures backend robustes
+  et sécurisées. Mon objectif est de transformer des idées en solutions concrètes
+  et efficaces.
+</p>
+
+<p className="text-lg text-muted-foreground leading-relaxed">
+  Curieux et en constante évolution, je m’intéresse aux nouvelles technologies
+  et aux bonnes pratiques de développement afin d’améliorer continuellement mes
+  compétences et proposer des solutions innovantes.
+</p>
+
+       {/* Code Block */}
+<div className="glass rounded-xl p-6 font-mono text-sm mt-8">
+  <div className="text-muted-foreground">
+    <span className="text-accent">const</span>{" "}
+    <span className="text-primary">developer</span> = {"{"}
+  </div>
+
+  <div className="pl-4 text-muted-foreground">
+    <span className="text-foreground">name</span>:{" "}
+    <span className="text-green-400">"Ayoub Hanine"</span>,
+  </div>
+
+  <div className="pl-4 text-muted-foreground">
+    <span className="text-foreground">role</span>:{" "}
+    <span className="text-green-400">"Full Stack Developer (MERN)"</span>,
+  </div>
+
+  <div className="pl-4 text-muted-foreground">
+    <span className="text-foreground">stack</span>:{" "}
+    <span className="text-green-400">
+      ["MongoDB", "Express", "React", "Node.js"]
+    </span>,
+  </div>
+
+  <div className="pl-4 text-muted-foreground">
+    <span className="text-foreground">skills</span>:{" "}
+    <span className="text-green-400">
+      ["TypeScript", "REST APIs", "Tailwind CSS"]
+    </span>,
+  </div>
+
+  <div className="pl-4 text-muted-foreground">
+    <span className="text-foreground">status</span>:{" "}
+    <span className="text-green-400">"Open to opportunities"</span>,
+  </div>
+
+  <div className="text-muted-foreground">{"}"}</div>
+</div>
             </div>
 
             {/* Highlights Grid */}
