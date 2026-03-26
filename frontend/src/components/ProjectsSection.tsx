@@ -3,6 +3,15 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
+    title: "Dentist Clinic Website",
+    description:
+      "Site web complet pour un cabinet dentaire avec prise de rendez-vous en ligne, gestion des patients et intégration d'une API pour les notifications par email. Construit avec React pour le front-end, Node.js & Express pour le back-end, et MongoDB comme base de données.",
+    tech: ["React", "Node.js", "Express", "MongoDB", "REST API"],
+    github: "https://github.com/ayoubhanine/DentisteWebsite",
+    live: "https://dentist-website.example.com",
+    featured: true,
+  }
+  ,{
     title: "E-Commerce Platform",
     description:
       "Plateforme e-commerce complète avec panier, paiement Stripe, et dashboard admin. Construite avec Next.js et Prisma.",
