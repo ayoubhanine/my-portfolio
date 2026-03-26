@@ -10,15 +10,39 @@ export const ContactSection = () => {
     email: "",
     message: "",
   });
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast({
-      title: "Message envoyé !",
-      description: "Je vous répondrai dès que possible.",
+  try {
+    const res = await fetch("http://localhost:5000/send-email", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      }),
     });
-    setFormData({ name: "", email: "", message: "" });
-  };
+
+    if (res.ok) {
+      toast({
+        title: "Message envoyé !",
+        description: "Je vous répondrai dès que possible.",
+      });
+
+      setFormData({ name: "", email: "", message: "" });
+    } else {
+      throw new Error("Erreur serveur");
+    }
+  } catch (error) {
+    toast({
+      title: "Erreur ❌",
+      description: "Impossible d'envoyer le message.",
+    });
+  }
+};
 
   return (
     <section id="contact" className="py-32 relative bg-secondary/20">
