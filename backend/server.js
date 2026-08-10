@@ -7,7 +7,9 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-
+app.get("/", (req, res) => {
+  res.json({ message: "Backend is working!" });
+});
 app.post("/send-email", async (req, res) => {
   const { name, email, message } = req.body;
 
