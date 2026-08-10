@@ -14,7 +14,10 @@ const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
 
   try {
-    const res = await fetch("http://localhost:5000/send-email", {
+    const res = await fetch(
+      // "http://localhost:5000/send-email",
+       "https://my-portfolio-backend-psi-flame.vercel.app/send-email",
+       {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
