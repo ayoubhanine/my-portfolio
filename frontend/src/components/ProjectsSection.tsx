@@ -3,11 +3,11 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Dentist Clinic Website",
+    title: "DentalBook",
     description:
       "Site web complet pour un cabinet dentaire avec prise de rendez-vous en ligne, gestion des patients et intégration d'une API pour les notifications par email. Construit avec React pour le front-end, Node.js & Express pour le back-end, et MongoDB comme base de données.",
     tech: ["React", "Node.js", "Express", "MongoDB", "REST API"],
-    github: "https://github.com/ayoubhanine/DentisteWebsite",
+    github: "https://github.com/ayoubhanine/DentalBook.git",
     live: "https://dentist-website.example.com",
     featured: true,
   }
@@ -21,20 +21,20 @@ const projects = [
     featured: true,
   },
   {
-    title: "Task Management App",
+    title: "AniVerse — Anime Discovery & Personal Library",
     description:
-      "Application de gestion de tâches en temps réel avec collaboration d'équipe, drag & drop, et notifications.",
-    tech: ["React", "Node.js",  "MongoDB"],
-    github: "https://github.com/ayoubhanine",
+      "Application web React permettant d’explorer des animes via une API externe, consulter leurs détails et personnages, rechercher et filtrer des contenus, et gérer une bibliothèque personnelle avec favoris, notes et suivi de visionnage. L’application intègre également un tableau de bord avec des statistiques personnalisées et un design responsive.",
+    tech: ["React", "React Router",  "Redux Toolkit","Jikan API","JSON Server"],
+    github: "https://github.com/ayoubhanine/AniVerse-With_React-.git",
     live: "https://example.com",
     featured: true,
   },
   {
-    title: "AI Chat Interface",
+    title: "Warehouse Management System",
     description:
-      "Interface de chat alimentée par l'IA avec streaming de réponses, historique de conversations, et thèmes personnalisables.",
-    tech: ["React",  "Tailwind"],
-    github: "https://github.com/ayoubhanine",
+      "Application Full Stack de gestion d’entrepôt permettant de gérer les produits et catégories, suivre les entrées et sorties de stock, consulter l’historique des mouvements et visualiser les principales statistiques de l’entrepôt à travers un tableau de bord. L’application intègre également l’authentification, la validation des données côté serveur et une architecture modulaire.",
+    tech: ["React",  "Next.js","TypeScript","MongoDB","Mongoose","Zod","Next.js App Router","NextAuth.js"],
+    github: "https://github.com/ayoubhanine/WarehouseOS-Nextjs-.git",
     live: "https://example.com",
     featured: true,
   },
