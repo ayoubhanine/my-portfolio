@@ -41,8 +41,8 @@ export const Footer = () => {
 
            {/* Copyright */}
 <p className="text-sm text-muted-foreground flex flex-col sm:flex-row items-center gap-1 justify-center">
-  Fait avec <Heart size={14} className="text-primary" /> par Ayoub Hanine.  
-  © {currentYear} Tous droits réservés.
+ Conçu & développé par Ayoub Hanine
+  © {currentYear} 
 </p>
           </div>
         </div>
