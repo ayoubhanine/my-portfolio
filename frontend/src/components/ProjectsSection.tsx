@@ -12,11 +12,11 @@ const projects = [
     featured: true,
   }
   ,{
-    title: "E-Commerce Platform",
+    title: "Investor Platform",
     description:
-      "Plateforme e-commerce complète avec panier, paiement Stripe, et dashboard admin. Construite avec Next.js et Prisma.",
-    tech: ["Next.js", "TypeScript"],
-    github: "https://github.com/ayoubhanine",
+      "Plateforme web de crowdfunding / investissement participatif permettant de mettre en relation des porteurs de projets et des investisseurs.",
+    tech: ["React", "TypeScript","Node.js","Express","MongoDB","REST API"],
+    github: "https://github.com/ayoubhanine/Investor-plateform-Full-Stack-.git",
     live: "https://example.com",
     featured: true,
   },
