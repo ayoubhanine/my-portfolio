@@ -33,7 +33,7 @@ const projects = [
     title: "Warehouse Management System",
     description:
       "Application Full Stack de gestion d’entrepôt permettant de gérer les produits et catégories, suivre les entrées et sorties de stock, consulter l’historique des mouvements et visualiser les principales statistiques de l’entrepôt à travers un tableau de bord. L’application intègre également l’authentification, la validation des données côté serveur et une architecture modulaire.",
-    tech: ["React",  "Next.js","TypeScript","MongoDB","Mongoose","Zod","Next.js App Router","NextAuth.js"],
+    tech: ["React",  "Next.js","TypeScript","MongoDB","Mongoose","Zod","Next.js App Router","Docker","NextAuth.js"],
     github: "https://github.com/ayoubhanine/WarehouseOS-Nextjs-.git",
     live: "https://example.com",
     featured: true,
